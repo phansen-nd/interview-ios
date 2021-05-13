@@ -4,9 +4,6 @@ Utilizing the provided base code, create an app that mimics the UI in the follow
 
 <img src="https://hallow.app/interview/ui_template.png" width="250">
 
-### Instructions
-Please fork the repository, commit your finished project and then send a URL of your code for inspection to chris@hallow.app.
-
 ### Requirements
 * The data must be dynamic and must come from the provided API endpoint: 
 	https://hallow.app/interview/data.json
