@@ -8,7 +8,7 @@ Utilizing the provided base code, create an app that mimics the UI in the follow
 ### Requirements
 * The data must be dynamic and must come from the provided API endpoint: 
 	https://hallow.com/interview/activity.json
-* The stream of days should be broken up into months and weeks to display
+* The stream of days should be broken up into weeks to display
 * Every day with a streak should be displayed as a piece of the streak. For single day streaks it should be a circle, otherwise whatever component makes up the greater streak.
 * Each month should show the month label on top of it 
 
