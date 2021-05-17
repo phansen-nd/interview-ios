@@ -82,7 +82,6 @@ class DayView: UIView {
 
         let color: UIColor
         if day.hasSession { color = .green }
-        else if day.isToday { color = .purple }
         else { color = .grey }
 
         circleView.backgroundColor = color
