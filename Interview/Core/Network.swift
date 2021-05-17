@@ -9,14 +9,15 @@ import Foundation
 import Alamofire
 
 struct Network {
-    func getContent(completion: @escaping (Result<[Chapter], Error>) -> Void) {
-        AF.request("https://hallow.com/interview/data.json", method: .get)
-            .responseDecodable(of: [Chapter].self) { response in
+    func getContent(completion: @escaping (Result<[Day], Error>) -> Void) {
+        AF.request("https://hallow.com/interview/activity.json", method: .get)
+            .responseDecodable(of: [Day].self) { response in
                 if let error = response.error {
                     completion(.failure(error))
                 }
 
-                // TODO: Map the network request data to models
+                print(response.result)
+                // TODO: Finish passing results back & map to months
         }
     }
 }
