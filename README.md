@@ -2,15 +2,13 @@
 
 Utilizing the provided base code, create an app that mimics the UI in the following image:
 
-<img src="https://hallow.app/interview/ui_template.png" width="250">
+<img src="https://hallow.app/interview/ios_template.jpg" width="250">
 
 ### Requirements
 * The data must be dynamic and must come from the provided API endpoint: 
-	https://hallow.app/interview/data.json
-* Items should be ordered based on the order key present in the JSON for each chapter
-* Images should be loaded from the endpoint provided in the image_url key
-* Tapping on any of the tiles will toggle the play state of the audio provided by the audio_url key
-* Please ensure all code is in Swift
+	https://hallow.com/interview/activity.json
+* The stream of months should be broken up into months and weeks
+* Every day with a streak should be displayed according to it's part as either a circle of a square
 
 ### Notes
 * Some base code has been provided for you in this repository, feel free to use as much or as little as you would like
