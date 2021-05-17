@@ -9,15 +9,18 @@ import Foundation
 import Alamofire
 
 struct Network {
-    func getContent(completion: @escaping (Result<[Day], Error>) -> Void) {
+
+    mutating func getContent(completion: @escaping (Result<Month, Error>) -> Void) {
         AF.request("https://hallow.com/interview/activity.json", method: .get)
             .responseDecodable(of: [Day].self) { response in
                 if let error = response.error {
                     completion(.failure(error))
                 }
 
+                // Data is already decoded as array of `Day`s
                 print(response.result)
-                // TODO: Finish passing results back & map to months
+
+                // TODO: Get days that are in first month and pass along
         }
     }
 }

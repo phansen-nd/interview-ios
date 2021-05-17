@@ -9,14 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let network = Network()
+    var network = Network()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // TODO: Load in the days from network request
-        // TODO: Parse data into month blocks
-        // TODO: Show each day in a given month with streak view
+        // TODO: Get all days in current month
+        // TODO: Pass days to `load(month: Month)`
+        // TODO: Modify so that the dot for today is purple
     }
 }
 
