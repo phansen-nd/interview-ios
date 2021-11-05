@@ -20,7 +20,8 @@ struct Network {
                 // Data is already decoded as array of `Day`s
                 print(response.result)
 
-                // TODO: Get days that are in first month and pass along
+                // TODO: Finish creating models
+                // TODO: Get days that are in first month and pass to completion
         }
     }
 }

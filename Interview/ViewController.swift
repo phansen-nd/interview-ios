@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // TODO: Load in the days from network request
-        // TODO: Get all days in current month
-        // TODO: Pass days to `load(month: Month)`
+        // Please look through all files before starting
+
+        // TODO: Load in a month from the network request
+        // TODO: Create a month view inside of this view controller
+        // TODO: Pass month to `load(month: Month)` to display it
         // TODO: Modify so that the dot for today is purple
     }
 }

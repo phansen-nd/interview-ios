@@ -10,6 +10,14 @@ import Foundation
 struct Month {
     let date: Date
     let days: [Day]
+
+    /// Create a new Month by passing any date inside of that month
+    /// and a list of all days the user completed a prayer in that month.
+    ///
+    /// - Parameter date: Any Date inside of the month
+    /// - Parameter days: A list of the days a user completed a prayer
+    ///     in that month. This list could be empty.
+    ///
     init(date: Date, days: [Day]) {
         self.date = date
         self.days = days
