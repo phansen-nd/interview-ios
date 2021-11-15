@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432D46C1274305350034EE73 /* HallowDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432D46C0274305350034EE73 /* HallowDateFormatter.swift */; };
+		432D46C3274310900034EE73 /* YearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432D46C2274310900034EE73 /* YearView.swift */; };
 		61A8AB392652C6D40030F181 /* StreakPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8AB382652C6D40030F181 /* StreakPart.swift */; };
 		61A8AB3B2652C74C0030F181 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8AB3A2652C74C0030F181 /* UIColor.swift */; };
 		61A8AB3D2652CB9E0030F181 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8AB3C2652CB9E0030F181 /* Date.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		432D46C0274305350034EE73 /* HallowDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallowDateFormatter.swift; sourceTree = "<group>"; };
+		432D46C2274310900034EE73 /* YearView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearView.swift; sourceTree = "<group>"; };
 		61A8AB382652C6D40030F181 /* StreakPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreakPart.swift; sourceTree = "<group>"; };
 		61A8AB3A2652C74C0030F181 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		61A8AB3C2652CB9E0030F181 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 				61A8AB442652EE3F0030F181 /* DayView.swift */,
 				61A8AB462652EEBE0030F181 /* WeekView.swift */,
 				61A8AB3F2652E81A0030F181 /* MonthView.swift */,
+				432D46C2274310900034EE73 /* YearView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 				61B2CEC82628E7930023A2F6 /* Network.swift */,
 				61A8AB3C2652CB9E0030F181 /* Date.swift */,
 				61A8AB3A2652C74C0030F181 /* UIColor.swift */,
+				432D46C0274305350034EE73 /* HallowDateFormatter.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -219,6 +225,8 @@
 				61A8AB392652C6D40030F181 /* StreakPart.swift in Sources */,
 				61A8AB402652E81A0030F181 /* MonthView.swift in Sources */,
 				61A8AB422652EE190030F181 /* Month.swift in Sources */,
+				432D46C3274310900034EE73 /* YearView.swift in Sources */,
+				432D46C1274305350034EE73 /* HallowDateFormatter.swift in Sources */,
 				61B2CEA72628E1900023A2F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
